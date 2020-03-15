@@ -1,0 +1,2 @@
+#If you want the /masssay command to be run in console set to true, else leave false.
+console-use: false
