@@ -33,7 +33,6 @@ public class ReloadCommand implements CommandExecutor {
                 }
             }else {
                 player.sendMessage("You don't have permission to use this command!");
-
             }
         }else{
             try{
