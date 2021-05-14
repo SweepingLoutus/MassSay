@@ -8,6 +8,10 @@ public class Main extends JavaPlugin {
         saveDefaultConfig();
         getCommand("masssay").setExecutor(new MassSayCommand(this));
         getCommand("masssayreload").setExecutor(new ReloadCommand(this));
+
+        int pluginId = 10512;
+        Metrics metrics = new Metrics(this, pluginId);
+
     }
 
     @Override
